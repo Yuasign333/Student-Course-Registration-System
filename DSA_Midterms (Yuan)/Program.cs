@@ -756,7 +756,7 @@ namespace DSA_midterms // (Yuan)
 
                                 string enrolledCourses = ""; // variable to store enrolled courses
 
-                                for (int j = 0; j < EnrolledStudentIDs.Count; j++) // loop through the enrolled atudents (lists)
+                                for (int j = 0; j < EnrolledStudentIDs.Count; j++) // loop through the enrolled students (lists)
                                 {
                                     if (EnrolledStudentIDs[j].ToUpper() == searchStudentID) // check if the student ID matches
                                     {
